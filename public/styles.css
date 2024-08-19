@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#menu, #game {
+    background-color: #3a3f47;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #61dafb;
+    color: #282c34;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+button:active {
+    background-color: #1b8bd1;
+}
+
+#shootBtn {
+    background-color: #ff4c4c;
+}
+
+#shootBtn:hover {
+    background-color: #e04141;
+}
+
+#shootBtn:active {
+    background-color: #c83737;
+}
+
+#protectBtn {
+    background-color: #ffa500;
+}
+
+#protectBtn:hover {
+    background-color: #e69500;
+}
+
+#protectBtn:active {
+    background-color: #cc8500;
+}
+
+#reloadBtn {
+    background-color: #4caf50;
+}
+
+#reloadBtn:hover {
+    background-color: #449d48;
+}
+
+#reloadBtn:active {
+    background-color: #3b8b3f;
+}

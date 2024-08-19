@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pistolero Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu">
+        <h1>Pistolero</h1>
+        <input type="text" id="roomCodeInput" placeholder="Código de la sala">
+        <button id="createRoomBtn">Crear Sala</button>
+        <button id="joinRoomBtn">Unirse a la Sala</button>
+    </div>
+
+    <div id="game" style="display:none;">
+        <h2>Juego en progreso</h2>
+        <button id="shootBtn">Disparar</button>
+        <button id="protectBtn">Protegerse</button>
+        <button id="reloadBtn">Recargar</button>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
